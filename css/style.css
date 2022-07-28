@@ -1,12 +1,19 @@
 * {
     background: turquoise;
 }
+
 body {
     background: turquoise;
 }
+
 a {
     color: white;
 }
+
 div {
     background: coral;
+}
+
+li {
+    color: blueviolet;
 }
