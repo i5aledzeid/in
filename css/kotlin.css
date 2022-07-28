@@ -3,33 +3,26 @@
 }
 
 /*---------------------------------------
-  ABOUT              
+  KOTLIN              
 -----------------------------------------*/
 
-#about,
-#project,
-#team,
-#contact,
 #kotlin,
 footer {
   background: #ffffff;
 }
 
-#about,
-#team,
-#contact,
 #kotlin {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
 
-#about {
+#kotlin {
     padding-top: 200px;
     padding-bottom: 150px;
 }
 
-.about-info h3 {
+.kotlin-info h3 {
     font-size: 14px;
     letter-spacing: 12px;
     text-transform: uppercase;
@@ -42,7 +35,7 @@ footer {
 
 @media (max-width: 980px) {
 
-    #about {
+    #kotlin {
         padding-top: 120px;
         padding-bottom: 100px;
     }
@@ -51,7 +44,7 @@ footer {
 
 @media (max-width: 580px) {
 
-    .about-info h3 {
+    .kotlin-info h3 {
         font-size: 12px;
         letter-spacing: 6px;
     }
