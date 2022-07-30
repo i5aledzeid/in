@@ -5,3 +5,9 @@
 h3 {
     color: white;
 }
+
+div {
+    border-radius: 16px;
+    background-color: rgb(240, 155, 140);
+    padding: auto;
+}
