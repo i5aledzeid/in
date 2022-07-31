@@ -11,3 +11,7 @@ div {
     background-color: rgb(240, 155, 140);
     padding: auto;
 }
+
+button {
+    border-radius: 16px;
+}
