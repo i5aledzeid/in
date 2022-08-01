@@ -14,4 +14,13 @@ text-decoration: noun; hide line of link
 */
 a {
     text-decoration: none;
+    color: white;
+}
+
+/*
+display: flex; make flexablity 
+*/
+header {
+    display: flex;
+    justify-content: space-between;
 }
