@@ -41,17 +41,64 @@
 
     <!-- content -->
     <div class="content">
+        <h2>Flutter (software)</h2>
+        <p>Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform
+            applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.
+            First described in 2015, Flutter was released in May 2017.</p>
+
+        <h2>History</h2>
+        <p>The first version of Flutter was known as "Sky" and ran on the Android operating system. It was unveiled at
+            the 2015 Dart developer summit with the stated intent of being able to render consistently at 120 frames per
+            second. During the keynote of Google Developer Days in Shanghai in September 2018, Google announced Flutter
+            Release Preview 2, the last major release before Flutter 1.0. On December 4th of that year, Flutter 1.0 was
+            released at the Flutter Live event, denoting the first stable version of the framework. On December 11,
+            2019, Flutter 1.12 was released at the Flutter Interactive event.
+            On May 6, 2020, the Dart software development kit (SDK) version 2.8 and Flutter 1.17.0 were released, adding
+            support for the Metal API which improves performance on iOS devices by approximately 50%, as well as new
+            Material widgets and network tracking development tools. On March 3, 2021, Google released Flutter 2 during
+            an online Flutter Engage event. This major update brought official support for web-based applications with a
+            new CanvasKit renderer and web specific widgets, early-access desktop application support for Windows,
+            macOS, and Linux and improved Add-to-App APIs.[10] This release also utilized Dart 2.0 that featured sound
+            null-safety, which caused many breaking changes and issues with many external packages; however, the Flutter
+            team included instructions and tools to mitigate these issues.
+            On September 8th, 2021, Dart 2.14 and Flutter 2.5 were released by Google. The update brought improvements
+            to the Android full-screen mode and the latest version of Google's Material Design called Material You. Dart
+            received two new updates, standardizing lint conditions and marking support for Apple Silicon as stable.
+            The current stable channel of Flutter is 3.0.2 and the Dart version is 2.17.3.</p>
+
+        <h2>Framework architecture</h2>
+        <p>The major components of Flutter include:
+            Dart platform
+            Flutter engine (Skia Graphics Engine)
+            Foundation library
+            Design-specific widgets
+            Flutter Development Tools (DevTools)</p>
+
+            <h5>Dart platform
+                Flutter apps are written in the Dart language and make use of many of the language's more advanced features.[15]
+                
+                While writing and debugging an application, Flutter runs in the Dart virtual machine, which features a just-in-time execution engine. This allows for fast compilation times as well as "hot reload", with which modifications to source files can be injected into a running application. Flutter extends this further with support for stateful hot reload, where in most cases changes to source code are reflected immediately in the running app without requiring a restart or any loss of state.[16]
+                
+                For better performance, release versions of Flutter apps on all platforms use ahead-of-time (AOT) compilation.[17]
+                
+                Flutter engine
+                Flutter's engine, written primarily in C++, provides low-level rendering support using Google's Skia graphics library. Additionally, it interfaces with platform-specific SDKs such as those provided by Android and iOS.[15] The Flutter Engine is a portable runtime for hosting Flutter applications. It implements Flutter's core libraries, including animation and graphics, file and network I/O, accessibility support, plugin architecture, and a Dart runtime and compile toolchain. Most developers interact with Flutter via the Flutter Framework, which provides a reactive framework and a set of platform, layout, and foundation widgets.
+                
+                Foundation library
+                The Foundation library, written in Dart, provides basic classes and functions that are used to construct applications using Flutter, such as APIs to communicate with the engine.[15][18]
+                
+                Design-specific widgets
+                The Flutter framework contains two sets of widgets that conform to specific design languages: Material Design widgets implement Google's design language of the same name, and Cupertino widgets implement Apple's iOS Human interface guidelines.[15][19][20][21]</h5>
+
         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dignissimos a consequuntur non pariatur, deserunt enim expedita? Possimus harum, impedit ipsam natus sed doloremque quisquam ipsum blanditiis, ullam, dignissimos amet.</p>
-        
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dignissimos a consequuntur non pariatur,
+            deserunt enim expedita? Possimus harum, impedit ipsam natus sed doloremque quisquam ipsum blanditiis, ullam,
+            dignissimos amet.</p>
+
         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At obcaecati ea eligendi, enim ipsum soluta, praesentium nisi deleniti dicta necessitatibus odit minima! Ex, consequuntur voluptatibus placeat illum fugiat voluptatem quod veritatis quos est reprehenderit aut itaque impedit nam, consequatur inventore tempore dicta cum esse ipsum! Velit, minus eligendi accusantium reiciendis sapiente, libero vitae ex sit repellendus, cumque eos similique maiores. Quam nemo dolorem eligendi. Consequuntur, facere debitis nemo excepturi dolore nobis libero? Nihil repudiandae nulla harum perspiciatis sed. Voluptates exercitationem nesciunt veniam sequi harum. Eos incidunt cupiditate numquam commodi ducimus, vero similique blanditiis non laborum corporis repellendus nesciunt inventore harum quaerat, atque dolorem esse ab cum odit dolor! Expedita, cumque doloremque. Repellat ut eligendi eos odio, neque quaerat qui accusamus deleniti minus magnam in! Quisquam, consequatur. Nihil delectus totam natus reprehenderit veritatis reiciendis eius voluptatem harum ducimus odio exercitationem, eaque voluptate illo tenetur earum excepturi expedita voluptas nulla incidunt maiores?</p>
-        
-        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dignissimos a consequuntur non pariatur, deserunt enim expedita? Possimus harum, impedit ipsam natus sed doloremque quisquam ipsum blanditiis, ullam, dignissimos amet.</p>
-        
-        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dignissimos a consequuntur non pariatur, deserunt enim expedita? Possimus harum, impedit ipsam natus sed doloremque quisquam ipsum blanditiis, ullam, dignissimos amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dignissimos a consequuntur non pariatur,
+            deserunt enim expedita? Possimus harum, impedit ipsam natus sed doloremque quisquam ipsum blanditiis, ullam,
+            dignissimos amet.</p>
     </div>
 
     <!-- Scripts -->
