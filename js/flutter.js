@@ -1,4 +1,4 @@
-alert("Welcome to flutter, script 02:51:06 PM 1/2022");
+alert("Welcome to flutter, script");
 let starts = document.getElementById('starts');
 let moon = document.getElementById('moon');
 let mountains3 = document.getElementById('mountains3');
