@@ -1,20 +1,8 @@
 * {
-    background-color: tomato;
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 
-h3 {
-    color: white;
-}
-
-div {
-    border-radius: 16px;
-    background-color: rgb(240, 155, 140);
-    padding: auto;
-}
-
-button {
-    border-radius: 16px;
-    background-color: white;
-    color: tomato;
+body {
+    background: linear-gradient();
 }
