@@ -87,7 +87,7 @@ header ul li a:hover, .active {
     transform: translateY(80px);
 }
 
-.flutter-title {
+.title {
     color: white;
     font-size: 25px;
     text-transform: uppercase;
