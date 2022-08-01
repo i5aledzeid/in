@@ -23,4 +23,32 @@ display: flex; make flexablity
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li{
+    margin-right: 30px;
+}
+
+header ul li a {
+    padding: 6px 15px;
+    border-radius: 16px;
+}
+
+header ul li a:hover{
+    background: white;
+    color: #200016;
 }
