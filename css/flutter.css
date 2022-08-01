@@ -83,3 +83,17 @@ header ul li a:hover, .active {
     text-transform: uppercase;
     transform: translateY(-140px);
 }
+
+.content {
+    color: white;
+    padding: 30px;
+}
+
+.content h2 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.content p {
+    margin: 20px;
+}
