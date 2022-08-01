@@ -48,7 +48,7 @@ header ul li a {
     border-radius: 16px;
 }
 
-header ul li a:hover{
+header ul li a:hover, .active{
     background: white;
     color: #200016;
 }
