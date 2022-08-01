@@ -23,6 +23,7 @@ display: flex; make flexablity
 header {
     position: fixed;
     width: 95%;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +60,9 @@ header ul li a:hover, .active {
     position: relative;
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main img {
@@ -66,4 +70,16 @@ header ul li a:hover, .active {
     height: 100vh;
     width: 100%;
     object-fit: cover;
+}
+
+#moon {
+    mix-blend-mode: screen;
+    transform: translateY(80px);
+}
+
+.flutter-title {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    transform: translateY(-140px);
 }
