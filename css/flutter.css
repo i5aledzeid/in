@@ -65,6 +65,15 @@ header ul li a:hover, .active {
     align-items: center;
 }
 
+.main::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top, #200016, transparent);
+}
+
 .main img {
     position: absolute;
     height: 100vh;
