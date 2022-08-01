@@ -63,6 +63,7 @@ header ul li a:hover, .active {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .main::after {
